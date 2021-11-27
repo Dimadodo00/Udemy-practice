@@ -8,7 +8,7 @@
 //const answer = prompt("18+?", "18");
 //console.log(answer);
 
-const answers = [];
+//const answers = [];
 
 answers[0] = prompt('What is your name?', '');
 answers[1] = prompt('How old are you?', '');
