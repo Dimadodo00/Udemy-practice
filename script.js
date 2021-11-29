@@ -10,9 +10,43 @@
 
 //const answers = [];
 
-answers[0] = prompt('What is your name?', '');
-answers[1] = prompt('How old are you?', '');
-answers[2] = prompt('You married?', '');
-answers[3] = prompt('Do you like cyling?', '');
+// answers[0] = prompt('What is your name?', '');
+// answers[1] = prompt('How old are you?', '');
+// answers[2] = prompt('You married?', '');
+// answers[3] = prompt('Do you like cyling?', '');
 
-document.write(answers);
+// document.write(answers);
+
+if(5 == 6){
+    console.log("Great!");
+} else{
+    console.log("lol");
+}
+
+const num = 50;
+
+if(num < 49){
+    console.log("Error");
+} else if(num > 100){
+    console.log("Maaany");
+} else{
+    console.log("Okay")
+}
+
+
+const arr = "Слыш";
+
+switch(arr){
+    case "Слышишь":
+        console.log("Wrong");
+        break;
+    case "Чуешь":
+        console.log("Wrong");
+        break;
+    case "Слыш":
+        console.log("Yeah");
+        break;
+    default:
+        console.log("Хуиш");
+        break;
+}
