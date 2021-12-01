@@ -17,36 +17,56 @@
 
 // document.write(answers);
 
-if(5 == 6){
-    console.log("Great!");
-} else{
-    console.log("lol");
-}
+// if(5 == 6){
+//     console.log("Great!");
+// } else{
+//     console.log("lol");
+// }
 
-const num = 50;
+// const num = 50;
 
-if(num < 49){
-    console.log("Error");
-} else if(num > 100){
-    console.log("Maaany");
-} else{
-    console.log("Okay")
-}
+// if(num < 49){
+//     console.log("Error");
+// } else if(num > 100){
+//     console.log("Maaany");
+// } else{
+//     console.log("Okay")
+// }
 
 
-const arr = "Слыш";
+// const arr = "Слыш";
 
-switch(arr){
-    case "Слышишь":
-        console.log("Wrong");
-        break;
-    case "Чуешь":
-        console.log("Wrong");
-        break;
-    case "Слыш":
-        console.log("Yeah");
-        break;
-    default:
-        console.log("Хуиш");
-        break;
+// switch(arr){
+//     case "Слышишь":
+//         console.log("Wrong");
+//         break;
+//     case "Чуешь":
+//         console.log("Wrong");
+//         break;
+//     case "Слыш":
+//         console.log("Yeah");
+//         break;
+//     default:
+//         console.log("Хуиш");
+//         break;
+// }
+
+let num = 50;
+
+// while(num <= 55){
+//     console.log(num);
+//     num++;
+// }
+
+// do {
+//     console.log(num);
+//     num++;
+// }
+// while (num < 55);
+
+for (let i = 1; i < 10; i++){
+    if (i === 6){
+    break;
+    }
+    console.log(i);
 }
